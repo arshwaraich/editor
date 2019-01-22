@@ -1,0 +1,23 @@
+
+<html>
+	<head>
+        <title>Editor</title>
+        <link rel="shortcut icon" type="image/png" href="https://drive.arshwaraich.com/uploads/Screenshot%20from%202019-01-22%2002-23-28.png"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <link rel="stylesheet" href="./editor.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="./editor.js"></script>
+
+        <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+	</head>
+	<body>
+		<button onclick="blobToTxt()" id="buttSave"><i class="fas fa-save"></i></button>
+		<div class="card card-1">
+            <div id="titleArea" contenteditable="true" placeholder="Title.txt" spellcheck="false" ></div>
+            <pre id="textArea" contenteditable="true" placeholder="//Content" onblur="reParse()" onfocus="deParse()"></pre>
+        </div>	
+	</body>
+</html>
