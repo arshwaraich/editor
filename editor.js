@@ -5,12 +5,19 @@ window.onload = function(){
         card.style.height = "90vh";
         card.style.marginBottom = "0px";
         card.style.marginTop = "5vh";
-        
+        card.style.fontSize = "4vh";
+
+        var txtAr = document.getElementById("textArea");
+        txtAr.style.fontSize = "3vh";
+        txtAr.style.margin = "20px";
+
         var buttSave = document.getElementById('buttSave');
         buttSave.style.fontSize = "10vw";
         buttSave.style.margin = "30px 10px";
         buttSave.style.width = "20vw";
         buttSave.style.height = "20vw";
+
+
     }
     var hour = new Date().getHours();
     if(hour < 8 || hour > 22){
