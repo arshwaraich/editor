@@ -8,7 +8,7 @@ window.onload = function(){
         card.style.fontSize = "4vh";
 
         var txtAr = document.getElementById("textArea");
-        txtAr.style.fontSize = "3vh";
+        txtAr.style.fontSize = "40px";
         txtAr.style.margin = "20px";
 
         var buttSave = document.getElementById('buttSave');
