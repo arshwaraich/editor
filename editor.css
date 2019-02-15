@@ -30,7 +30,7 @@ outline: none;
     border: none;
     padding: 10px;
     width: 60vw;
-    height: 84vw;
+    min-height: 84vw;
     font-size: x-large;
     font-family: 'Inconsolata', monospace;
     color: #505050;
@@ -60,7 +60,6 @@ outline: none;
     background-color: #f3f3f3;
     border-radius: 4px;
     border-bottom: none;
-    overflow-x: scroll;
 }
 
 #titleArea:empty:before,#textArea:empty:before {
@@ -70,6 +69,8 @@ outline: none;
 
 #textArea {
     padding: 20px 10px;
+    overflow-x:  hidden;
+    border-radius: 10px;
 }
 
 #textArea:focus {
